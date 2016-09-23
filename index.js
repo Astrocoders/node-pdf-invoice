@@ -21,6 +21,7 @@ function PDFInvoice({
   doc.fillColor('#333333');
 
   const translate = i18n[PDFInvoice.lang]
+  moment.locale(PDFInvoice.lang)
 
   const divMaxWidth = 550;
   const table = {
