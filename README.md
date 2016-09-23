@@ -37,3 +37,5 @@ const fs = require('fs')
 docucment.generate() // triggers rendering
 document.pdfkitDoc.pipe(fs.createWriteStream('path/to/file.pdf'))
 ```
+
+Checkout this PDF demo at https://github.com/Astrocoders/node-pdf-invoice/blob/master/tests/testing.pdf
