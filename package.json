@@ -1,0 +1,32 @@
+{
+  "name": "pdf-invoice",
+  "version": "1.0.0",
+  "description": "A Phantom dep. free PDF invoice generator built with PDFKit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Astrocoders/node-pdf-invoice.git"
+  },
+  "keywords": [
+    "pdfkit",
+    "invoice",
+    "pdf",
+    "invoice",
+    "invoice",
+    "pdf"
+  ],
+  "author": "Gabriel Rubens <https://twitter.com/_gabrielrubens>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Astrocoders/node-pdf-invoice/issues"
+  },
+  "homepage": "https://github.com/Astrocoders/node-pdf-invoice#readme",
+  "dependencies": {
+    "numeral": "^1.5.3",
+    "pdfkit": "^0.8.0",
+    "moment": "^2.14.1"
+  }
+}
