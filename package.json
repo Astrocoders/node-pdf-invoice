@@ -4,7 +4,7 @@
   "description": "A Phantom dep. free PDF invoice generator built with PDFKit",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node tests/full_generation.js"
   },
   "repository": {
     "type": "git",
