@@ -1,6 +1,6 @@
 const fs = require('fs')
 const path = require('path')
-const generator = require('../index')
+const generator = require('../dist/index')
 
 const document = generator({
   company: {
