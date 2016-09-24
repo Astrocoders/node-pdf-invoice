@@ -1,10 +1,11 @@
 {
   "name": "pdf-invoice",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A Phantom dep. free PDF invoice generator built with PDFKit",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "node tests/full_generation.js"
+    "test": "node tests/full_generation.js",
+    "pre-publish": "babel lib/ --out-dir dist/"
   },
   "repository": {
     "type": "git",
@@ -28,5 +29,18 @@
     "moment": "^2.14.1",
     "numeral": "^1.5.3",
     "pdfkit": "^0.8.0"
+  },
+  "engines": {
+    "node": ">=6.1.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-core": "^6.14.0",
+    "babel-preset-es2015": "^6.14.0"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
   }
 }
