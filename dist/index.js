@@ -100,6 +100,6 @@ function PDFInvoice(_ref) {
   };
 }
 
-PDFInvoice.lang = 'pt_BR';
+PDFInvoice.lang = 'it_IT';
 
 module.exports = PDFInvoice;
