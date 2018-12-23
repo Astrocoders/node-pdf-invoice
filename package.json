@@ -1,6 +1,6 @@
 {
   "name": "pdf-invoice",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A Phantom dep. free PDF invoice generator built with PDFKit",
   "main": "dist/index.js",
   "scripts": {
