@@ -34,7 +34,7 @@ const document = pdfInvoice({
 
 const fs = require('fs')
 
-docucment.generate() // triggers rendering
+document.generate() // triggers rendering
 document.pdfkitDoc.pipe(fs.createWriteStream('path/to/file.pdf'))
 ```
 
